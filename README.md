@@ -54,6 +54,6 @@ The designspace document contains the public.skipExportGlyphs key with the list 
 
 ### Observed behaviour
 
-
+![DynamoDarkroomImage](issue.png)
 
 
