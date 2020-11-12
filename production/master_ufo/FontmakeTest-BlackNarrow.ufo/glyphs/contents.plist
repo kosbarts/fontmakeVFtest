@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>O</key>
+    <string>O_.glif</string>
+    <key>O.BRACKET.240</key>
+    <string>O_.B_R_A_C_K_E_T_.240.glif</string>
+    <key>O.alt</key>
+    <string>O_.alt.glif</string>
+    <key>Q</key>
+    <string>Q_.glif</string>
+    <key>Q.BRACKET.240</key>
+    <string>Q_.B_R_A_C_K_E_T_.240.glif</string>
+    <key>Q.alt</key>
+    <string>Q_.alt.glif</string>
+    <key>space</key>
+    <string>space.glif</string>
+  </dict>
+</plist>

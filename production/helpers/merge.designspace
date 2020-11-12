@@ -1,0 +1,30 @@
+## Add the following after the </axes> and before <sources> in the designspace file ##
+## Don't inlcude these lines ##
+## Add additional subsitutions if need be ##
+
+
+  <rules>
+    <rule name="BRACKET.90.180">
+      <conditionset>
+        <condition name="Weight" minimum="90" maximum="180"/>
+		<condition name="Width" minimum="50" maximum="125"/>
+      </conditionset>
+      <sub name="O" with="O.BRACKET.240"/>
+    </rule>
+    <rule name="BRACKET.180.240">
+      <conditionset>
+        <condition name="Weight" minimum="180" maximum="240"/>
+		<condition name="Width" minimum="50" maximum="125"/>
+      </conditionset>
+      <sub name="Q" with="Q.BRACKET.240"/>
+      <sub name="O" with="O.BRACKET.240"/>
+    </rule>
+    <rule name="BRACKET.240.300">
+      <conditionset>
+        <condition name="Weight" minimum="240" maximum="300"/>
+		<condition name="Width" minimum="50" maximum="150"/>
+      </conditionset>
+      <sub name="Q" with="Q.BRACKET.240"/>
+      <sub name="O" with="O.BRACKET.240"/>
+    </rule>
+  </rules>
