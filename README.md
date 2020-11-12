@@ -54,6 +54,11 @@ The designspace document contains the public.skipExportGlyphs key with the list 
 
 ### Observed behaviour
 
-![DynamoDarkroomImage](issue.png)
+![DynamoDarkroomImage](Issue.png)
 
+The non-exporting glyphs are still in the font. 
 
+Possible solutions that did not work:
+- --no-write-skipexportglyphs argument in the build_ds
+- --subset argument in the build_ds and build_vf
+- remove/include the Export Glyphs and Remove Glyphs custom parameters in Glyphs.
