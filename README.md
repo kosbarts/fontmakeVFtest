@@ -34,7 +34,7 @@ cd production
 ```
 
 ### Build designspace file in /master_ufo
-**Note:** At this stage we want to produce a designspace document and the required UFO's. We want to patch a custom set of Rules (`merge.designspace` found in `/helpers` folder), which create a more complex susbtitution scheme than Glyphs can produce with the bracket layers. The build scripts produces the required UFO and designspace which is afterwards patched using a small python script `designspace.py` to substitute the Rules with the new Rules.
+**Note:** At this stage we want to produce a designspace document and the required UFO's. We want to patch a custom set of Rules (`merge.designspace` found in `/helpers` folder), which create a more complex susbtitution scheme than Glyphs can produce with the bracket layers. The build scripts produces the required UFO and designspace which is afterwards patched using a small python script (`designspace.py`) to substitute the Rules with the new Rules.
 
 ```
 sh build_ds.sh
@@ -45,7 +45,15 @@ sh build_ds.sh
 ```
 sh build_vf.sh
 ``` 
+
 ## Observations
+
+### Expected behaviour
+The glyphs O.alt and Q.alt that are flagged as non-exporting in Glyphs should not be included in the final variable font.
+The designspace document contains the public.skipExportGlyphs key with the list of glyphs that supposedly should get rid of them.
+
+### Observed behaviour
+
 
 
 
