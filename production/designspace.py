@@ -1,4 +1,3 @@
-from bs4 import BeautifulSoup
 import sys
 
 # Check and collect file inputs and outputs
